@@ -1,0 +1,217 @@
+/*************************************TAG SELECTORS************************************/
+body{
+  margin: 0;
+  text-align: center; /* centers anything inside that doesn't have width set*/
+  font-family: 'Poppins',serif;
+  color: black;
+}
+
+h1{
+  color: #66BFBF;
+  /*width: 20%;*/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+/*************************************CLASS SELECTORS**********************************/
+.bottom-cloud{
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:500px;
+  top:50px;
+}
+
+.dotted-line {
+  border-color: lightgrey;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+}
+
+.pres {
+  margin: 2rem auto 5rem auto;
+  width: 30%;
+}
+
+.prof-pic{
+  margin-top: 20px;
+  width: 13%;
+}
+
+.comp {
+  float: left; /*to wrap text around a certain element*/
+  margin-right: 40px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.chillies {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.footer-link{
+  color: #11999D;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*.code-skill-description {
+  clear: right; /*clear to remove wrapping around image*/
+
+.skills {
+  margin: 7rem auto 9rem auto;
+}
+
+.contact-me {
+  margin-top: 6rem;
+}
+
+.skill-row {
+  margin: 100px auto; /*To center where there's width*/
+  width: 45%;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  padding: 2.2rem;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 6rem;
+  margin: 3em auto 0 auto;
+  position: relative;
+}
+
+.whiiiii {
+  color: #EAF6F6;
+  margin: 0;
+  font-style: italic;
+  position: relative;
+  bottom: 20px;
+  font-size: 0.75rem;
+}
+
+/*ABSOLUTE POSITION "RELATIVE" TO PARENT... BODY in this case
+
+.fcontainer{
+  background-color: Red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+.middle-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.bottom-container{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*/
+
+/* RELATIVE POSITION TO PREVIOUS "GHOST" POSITION
+.fcontainer{
+  background-color: Red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  left: 400px;
+}
+
+.middle-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  right: 200px;
+}
+
+.bottom-container{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  right: 200px
+}
+*/
+.pro{
+  text-decoration: underline;
+}
+
+
+/*************************************ID SELECTORS*************************************/
